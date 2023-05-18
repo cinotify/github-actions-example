@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Starting GitHub Actions Job"
-      - uses: cinotify/github-action@fix-deprecation-warning
+      - uses: cinotify/github-action@main
         with:
           to: 'example@example.com'
           subject: 'building main'

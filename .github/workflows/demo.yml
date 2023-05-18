@@ -7,6 +7,6 @@ jobs:
       - run: echo "Starting GitHub Actions Job"
       - uses: cinotify/github-action@main
         with:
-          to: 'example@example.com'
+          to: 'jesse@jesse.sh'
           subject: 'building main'
           body: 'This is a notification from GitHub actions.'

@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Starting GitHub Actions Job"
-      - uses: cinotify/github-action@33a8de3
+      - uses: cinotify/github-action@33a8de3ada0623fa60f9ad449de0bd756118a5ac
         with:
           to: 'jesse@jesse.sh'
           subject: 'testing node 20'

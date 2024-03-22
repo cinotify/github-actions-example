@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Starting GitHub Actions Job"
-      - uses: cinotify/github-action@c47521dcf68e05f9d7cc7099321d5360b9529e19
+      - uses: cinotify/github-action@0c62d527821415994a41ed3df629c33bd276eb68
         with:
           to: 'jesse@jesse.sh'
           subject: 'building main'
